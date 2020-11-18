@@ -1,0 +1,19 @@
+{
+  "name": "folio_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Theodor Tolstoy",
+  "license": "ISC",
+  "bin": {
+    "folio_node": "./bin/index.js"
+  },
+  "dependencies": {
+    "request-promise": "^4.2.6",
+    "request-promises": "^1.1.0",
+    "yargs": "^16.1.1"
+  }
+}
